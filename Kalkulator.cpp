@@ -1,4 +1,5 @@
 #include <iostream>
+#include <stdlib.h>
 
 using std::cout;
 using std::cin;
@@ -40,7 +41,8 @@ cin>>liczba;
    i=0;
    break;
    default:
-   cout<<"Wybrano zly numer, sprobuj ponownie..."<<endl;
+   system("clear");
+   cout<<"Wybrano zly numer, sprobuj ponownie..."<<endl<<endl;
    i++;
    break;
    }
