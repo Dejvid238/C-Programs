@@ -15,5 +15,5 @@ int main(int argc, char *argv[])
     cout<<Uzytkownik::getCounter()<<endl;   //wypisuje ostatnia wartosc ktora zostaje przypisana dla zmiennej counter
 
     getchar();
-    return EXIT_SUCCESS; //pomyslne zakonczenie dzialania programu
+    return EXIT_SUCCESS; //pomyslne zakonczenie dzialania programuu
 }
